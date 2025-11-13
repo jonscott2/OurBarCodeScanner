@@ -1,0 +1,24 @@
+Group Members: 
+Samuel Kwibe
+Jonathan Corwin
+Jon Scott
+Isaac Akhtar Zada
+Elena Guzman
+
+Github Barcode Repository: QrAndBarcodeScanner/README.md at master · wewewe718/QrAndBarcodeScanner
+
+Ingredient DB: TheMealDB.com - Free Recipe API 
+
+Main Idea: The average American throws away around $2000 of edible food every year because of spoilage. As a nation it is estimated around 408 billion USD in groceries is thrown away every year. To combat the insanely high food waste problem in the U.S., we will develop an app that keeps track of all food items you bring into your home and suggest recipes based on what you have available, what will expire soon, and what your preferences are.
+
+How we will do it:
+1.	Connect Barcode Repository (completed and free) to a list that tracks all items it scans. The list will record the item and time purchased. 
+2.	The list will be stored in MySQL because it has a structured format and will gain a performance boost over MongoDB. 
+3.	The app will connect to TheMealDB, a free meal API that can search meals based on ingredients, and will suggest recipes the user can make based on what ingredients the user has
+
+What we Actually need to do:
+Add a list that keeps track of what ingredients are scanned
+Add expiration timers to each ingredient (maybe based on national average)
+Store that list in a database
+Connect TheMealDB to the app
+Add logic for suggesting recipes based on available recipes
